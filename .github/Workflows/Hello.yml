@@ -1,13 +1,23 @@
+#Workflow
 
+name: Hello
 
-name: Hello  
-on: workflow_dispatch
+on:
+  workflow_dispatch: 
+  
+
+#jobs
 
 jobs:
+  
   say-hello:
-    runs-on: ubuntu-latest
-    
+    runs-on:  ubuntu-latest
+
     steps:
-      - name: say-hello everyone
+      - name: say-Hello everyone
         run: echo "Hello Dosto"
-      
+        
+#steps
+
+#Action
+
